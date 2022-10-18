@@ -1,4 +1,4 @@
-Personal portfolio website, created using html5 template. 
+Personal portfolio website, created using html5 template.
 
 Original license and source info can be seen below.
 
