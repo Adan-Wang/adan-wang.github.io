@@ -40,6 +40,7 @@
 		color: #888;
 	}
 
+
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 300;
@@ -62,6 +63,7 @@
 		{
 			font-size: 2em;
 			letter-spacing: -1px;
+			color:#eeeeee
 		}
 		
 			h2.alt
@@ -77,6 +79,21 @@
 		h3
 		{
 			font-size: 1.5em;
+		}
+
+		h4
+		{
+			font-size: 15pt;
+			line-height: 1.5em;
+			text-align: justify;
+			text-justify: inter-word;
+			margin: 2em 2em 2em 0;
+			color: #CCCCCC
+			
+		}
+
+		h5{
+			color: #CCCCCC
 		}
 
 	header
@@ -233,6 +250,17 @@
 			{
 				float: left;
 				margin: 0 2em 2em 0;
+			}
+			.image.right
+			{
+				float: right;
+				margin: 0 2em 2em 0;
+			}
+			.image.right.profile
+			{
+				display: inline-block;
+				margin: 0 1em;
+				width: 200px;
 			}
 			
 			.image.centered
@@ -630,7 +658,7 @@
 				{
 					display: block;
 					padding: 0.5em 1.5em 0.5em 1.5em;
-					color: rgba(255,255,255,0.5);
+					color: rgba(255,255,255,0.7);
 					text-decoration: none;
 					outline: 0;
 					border: 0;
@@ -652,7 +680,7 @@
 						{
 							position: absolute;
 							left: 0;
-							color: #41484c;
+							color: #727d83;
 							text-align: center;
 							width: 1.25em;
 							line-height: 1.75em;
@@ -671,7 +699,7 @@
 
 							#nav ul li a.active span:before
 							{
-								color: #e27689;
+								color: #1363df;
 							}
 
 /*********************************************************************************/
@@ -771,15 +799,25 @@
 
 			#main > section.two
 			{
-				background-color: #f5fafa;
+				background-color: #393E46;
 			}
 		
 			#main > section.three
 			{
-				background-color: #ecf1f1;
+				background-color: #222831;
 			}
 		
 			#main > section.four
 			{
-				background-color: #e8edec;
+				background-color: #393E46;
+			}
+
+			#main > section.five
+			{
+				background-color: #222831;
+			}
+
+			#main > section.six
+			{
+				background-color: #393E46;
 			}
