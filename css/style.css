@@ -54,7 +54,7 @@
 			text-decoration: none;
 		}
 
-		h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong
+		h1 strong, h2 strong, h3 strong, h4 strong, h5 strong
 		{
 			color: #333;
 		}
@@ -95,6 +95,13 @@
 		h5{
 			color: #CCCCCC
 		}
+		
+		h6{
+			font-size: 16pt;
+			color: #CCCCCC;
+			text-align: justify;
+			text-indent: hanging
+		}
 
 	header
 	{
@@ -111,10 +118,11 @@
 		margin: 2em 0 0 0;
 	}
 
+
 	strong, b
 	{
-		font-weight: 300;
-		color: #666;
+		font-weight: 600;
+		font-style: bold;
 	}
 	
 	em, i
@@ -239,6 +247,15 @@
 				width: 100%;
 			}
 			
+			.image.fit.border
+			{
+				display: block;
+				width: 100%;
+				border-style: groove;
+				border-color: rgb(189, 189, 189);
+				border-width: 3px;
+			}
+			
 			.image.featured
 			{
 				display: block;
@@ -250,6 +267,15 @@
 			{
 				float: left;
 				margin: 0 2em 2em 0;
+			}
+			.image.left.profile
+			{
+				display: inline-block;
+				margin: 0 1em;
+				width: 200px;
+				border-style:solid;
+				border-color:black;
+				border-width:1px;
 			}
 			.image.right
 			{
@@ -314,6 +340,7 @@
 
 		ol
 		{
+			list-style: decimal;
 		}
 		
 			ol.default
@@ -325,6 +352,10 @@
 				ol.default li
 				{
 					padding-left: 0.25em;
+					font-size: 16pt;
+					color: #CCCCCC;
+					text-align: justify;
+					text-indent: hanging
 				}
 
 	/* Form */
@@ -514,7 +545,14 @@
 		{
 			box-shadow: 0 0.05em 0.15em 0 rgba(0,0,0,0.05);
 			margin-bottom: 40px;
+			vertical-align: middle;
 		}
+			.item.border{
+				border-style:solid;
+				border-width: 1px;
+				border-color: rgb(224, 224, 224);
+
+			}
 		
 			.item header
 			{
@@ -793,8 +831,8 @@
 		
 			#main > section.one
 			{
-				background-color: #81918E;
-				background-image: url('../images/banner.jpg');
+				background-color: #393E46;
+				background-image: url('../images/banner.png');
 			}
 
 			#main > section.two
